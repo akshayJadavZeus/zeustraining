@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+        font-family: 'Quicksand Medium';
+        src: url('Quicksand-Medium.ttf');
+    }
+
+body{
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: "Quicksand Medium", sans-serif;
+}
+
+.login_page{
+    background-color: gray;
+    display: grid;
+    grid-template-areas: "h h h h h h h h h h h h "
+                "b b b b b b b b b b b b"
+                "f f f f f f f f f f f f";
+}
+
+.header{
+    background-color: rebeccapurple;
+    background-image: url("header\ pattern\ image.png");
+    object-fit: cover;
+    grid-area: h;
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+}
+
+.login_area{
+    background-color: lightgray;
+    grid-area: b;
+    display: grid;
+    justify-content: center;
+}
+
+.footer{
+    background-color: gray;
+    grid-area: f;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.footer > span{
+    margin-bottom: 10px;
+    padding-right: 11px;
+    vertical-align: middle;
+}
+
+/* login card mate css */
+.first_line{
+    display: flex;
+    align-items: center;
+}
+.first_line p{
+    font-size: 30px;
+    margin: 20px auto 30px auto;
+}
+#back_arrow,p{
+    margin: 0;
+}
+
+.login_card{
+    /* display: flex; */
+    justify-content: center;
+    background-color: whitesmoke;
+    /* border: 2px solid black; */
+    border-top: 4px solid blue;
+    width: 488px;
+    /* height: 500px; */
+    margin: 20px;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px;
+}
+
+
+.form_data{
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px 32px 0 32px;
+    /* align-items: center; */
+    
+}
+
+.first_line{
+    display: flex;
+}
+
+button{
+    width: 215px;
+    height: 40px;
+    /* text-align: center; */
+    margin: 34px auto 24px auto;
+    background-color: green;
+    box-shadow: 2px 2px 8px  black;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+.radio_line{
+    /* background-color: palevioletred; */
+    margin: 0px 0 25px 0;
+}
+
+
+.dropdown_line {
+    margin: 0;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: column;
+    /* margin: 20px 0 20px 0; */
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+}
+
+.one,.two label{
+    font-size: 10px;
+    color: gray;
+}
+
+select{
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+
+.text_line{
+    /* background-color: palegreen; */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.text_line input{
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-right: 0;
+}
+
+.text_line p{
+    color: green;
+    margin: 0 0 0 auto;
+}
+
+#space_down{
+    margin-bottom: 33px;
+}
+.checkbox_line{
+    margin-top: 26px;
+}
+
+[type="checkbox"]
+{
+    vertical-align: middle;
+}
+
+.standalone{
+    margin-bottom: 16px;
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.standalone a{
+    text-decoration: none;
+    color: green;
+}
