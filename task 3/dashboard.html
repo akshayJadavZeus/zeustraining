@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <!-- main div to provide layout -->
+    <div class="dashboard_page">
+      <!-- header start for big screen-->
+      <div class="header">
+        <img src="icons/logo used in header.svg" alt="logo at header" />
+        <ul>
+          <li><a href="#">DASHBOARD</a></li>
+          <li><a href="#">CONTENT</a></li>
+          <li><a href="#">USERS</a></li>
+          <li><a href="#">REPORTS</a></li>
+          <li><a href="#">ADMIN</a></li>
+          <li>
+            <a href="#"><img src="icons/alerts.svg" alt="notification" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="icons/announcements.svg" alt="announcement"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/account_circle.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+      <!-- header end for big screen-->
+
+      <!-- header start for SMALL screen-->
+      <div class="header_small_screen">
+        <img src="icons/logo used in header.svg" alt="logo at header" />
+        <ul>
+          
+          <li>
+            <a href="#"><img src="icons/alerts.svg" alt="notification" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="icons/announcements.svg" alt="announcement"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="icons/account_circle.svg" alt="" /></a>
+          </li>
+          <li><img src="icons/hamburger-menu.svg" alt="hamburger menu"></li>
+        </ul>
+      </div>
+      <!-- header end for big screen-->
+
+      <!-- main content of courses -->
+      <div class="courses">
+        <div class="green_header">
+          <div class="box" style="border-bottom: 4px solid #222222; width:50%">
+            <img src="icons/courses.svg" alt="courses" />
+            <span>4</span>
+            <p>Courses</p>
+          </div>
+          <div class="box" style="width: 50%;">
+            <img src="icons/classes.svg" alt="classes" />
+            <span>4</span>
+            <p>Classes</p>
+          </div>
+        </div>
+
+        <div class="filter_line">
+          <div class="">
+            <span class="label"> Showing 4 of 4 courses </span>
+          </div>
+          <div class="filter">
+            <span class="label"> Sort By: </span>
+            <select name="Course Name" id="CN">
+              <option value="Couse Name">Course Name</option>
+            </select>
+            <img src="icons/sort.svg" alt="sort">
+          </div>
+        </div>
+        <div class="line"></div>
+
+        <div class="card_container">
+            <!-- first card -->
+          <div class="card">
+            <div class="card_upper_body">
+              <img src="images/imageMask.png" alt="" />
+              <div class="card_content">
+                <div class="first_Line">
+                  <span class="important">Acceleration</span>
+                  <img src="icons/favourite.svg" alt="favourite" />
+                </div>
+                <div class="second_line">
+                  <span style="margin-right: 8px;">Physics</span>
+                  <span class="separator"></span>
+                  <span style="margin: 0 8px;">Grade 7</span>
+                  <span style="color:#1F7A54">+2</span>
+                </div>
+                <div class="third_line">
+                  <p>
+                    <span class="bold">4</span>Units <span class="bold">18</span> Lessons
+                    <span class="bold">24</span> Topics
+                  </p>
+                </div>
+                <div class="fourth_line">
+                  <select name="" id="">
+                    <option value="">Mr. Frank's Class B</option>
+                  </select>
+                  <div class="line" style="margin: 0 40px 8px 0;"></div>
+                </div>
+                <div class="fifth_line">
+                  <p>
+                    <span>50 Students</span>
+                    <span class="separator"></span>
+                    <span>21-Jan-2020 - 21-Aug-2020</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="line" style="margin:0;margin-bottom: 16px;"></div>
+            <div class="card_lower_body">
+                <img src="icons/preview.svg" alt="preview">
+                <img src="icons/manage course.svg" alt="manage">
+                <img src="icons/grade submissions.svg" alt="">
+                <img src="icons/reports.svg" alt="">
+            </div>
+          </div>
+
+          <!-- second card -->
+          <div class="card">
+            <div class="card_upper_body">
+              <img src="images/imageMask-1.png" alt="" />
+              <div class="card_content">
+                <div class="first_Line">
+                  <span class="important">Displacement, Velocity and Speed</span>
+                  <img src="icons/favourite.svg" alt="favourite" />
+                </div>
+                <div class="second_line">
+                  <span style="margin-right: 8px;">Physics 2</span>
+                  <span class="separator"></span>
+                  <span style="margin: 0 8px;">Grade 6</span>
+                  <span style="color:#1F7A54">+3</span>
+                </div>
+                <div class="third_line">
+                  <p>
+                    <span class="bold">2</span>Units <span class="bold">15</span> Lessons
+                    <span class="bold">20</span> Topics
+                  </p>
+                </div>
+                <div class="fourth_line">
+                  <select name="" id="">
+                    <option value="">No Classes</option>
+                  </select>
+                  <div class="line" style="margin: 0 40px 8px 0;"></div>
+                </div>
+                <div class="fifth_line">
+                  <p>
+                    <span>50 Students</span>
+                    <span class="separator"></span>
+                    <span></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="line" style="margin:0;margin-bottom: 16px;"></div>
+            <div class="card_lower_body">
+                <img src="icons/preview.svg" alt="preview">
+                <img src="icons/manage course.svg" alt="manage">
+                <img src="icons/grade submissions.svg" alt="">
+                <img src="icons/reports.svg" alt="">
+            </div>
+          </div>
+
+          <!-- third card -->
+          <div class="card">
+            <div class="card_upper_body">
+              <img src="images/imageMask-3.png" alt="" />
+              <div class="card_content">
+                <div class="first_Line">
+                  <span class="important">Introduction to Biologu:Micro organism and how they affec...</span>
+                  <img src="icons/favourite.svg" alt="favourite" />
+                </div>
+                <div class="second_line">
+                  <span style="margin-right: 8px;">Biology</span>
+                  <span class="separator"></span>
+                  <span style="margin: 0 8px;">Grade 4</span>
+                  <span style="color:#1F7A54">+1</span>
+                </div>
+                <div class="third_line">
+                  <p>
+                    <span class="bold">5</span>Units <span class="bold">16</span> Lessons
+                    <span class="bold">22</span> Topics
+                  </p>
+                </div>
+                <div class="fourth_line">
+                  <select name="" id="">
+                    <option value="">All Classes</option>
+                  </select>
+                  <div class="line" style="margin: 0 40px 8px 0;"></div>
+                </div>
+                <div class="fifth_line">
+                  <p>
+                    <span>300 Students</span>
+                    <span class="separator"></span>
+                    <span></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="line" style="margin:0;margin-bottom: 16px;"></div>
+            <div class="card_lower_body">
+                <img src="icons/preview.svg" alt="preview">
+                <img src="icons/manage course.svg" alt="manage">
+                <img src="icons/grade submissions.svg" alt="">
+                <img src="icons/reports.svg" alt="">
+            </div>
+          </div>
+
+          <!-- fourth card -->
+          <div class="card">
+            <div class="card_upper_body">
+              <img src="images/imageMask-2.png" alt="" />
+              <div class="card_content">
+                <div class="first_Line">
+                  <span class="important">Introduction to High School Mathematics</span>
+                  <img src="icons/favourite.svg" alt="favourite" />
+                </div>
+                <div class="second_line">
+                  <span style="margin-right: 8px;">Mathematics</span>
+                  <span class="separator"></span>
+                  <span style="margin: 0 8px;">Grade 8</span>
+                  <span style="color:#1F7A54">+3</span>
+                </div>
+                <div class="third_line">
+                  <p>
+                    <span class="bold">4</span>Units <span class="bold">18</span> Lessons
+                    <span class="bold">24</span> Topics
+                  </p>
+                </div>
+                <div class="fourth_line">
+                  <select name="" id="">
+                    <option value="">Mr. Frank's Class A</option>
+                  </select>
+                  <div class="line" style="margin: 0 40px 8px 0;"></div>
+                </div>
+                <div class="fifth_line">
+                  <p>
+                    <span>44 Students</span>
+                    <span class="separator"></span>
+                    <span>14-Oct-2019 - 20-Oct-2020</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="line" style="margin:0;margin-bottom: 16px;"></div>
+            <div class="card_lower_body">
+                <img src="icons/preview.svg" alt="preview">
+                <img src="icons/manage course.svg" alt="manage">
+                <img src="icons/grade submissions.svg" alt="">
+                <img src="icons/reports.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- main content of courses end -->
+
+      <!-- footer start -->
+      <div class="footer">
+        <div class="footer_one">
+          <a href="#">About </a>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <div class="footer_two">
+          <span
+            ><img src="icons/logo used in footer.svg" alt="footer logo"
+          /></span>
+          <p>
+            copyright &copy; 2020-2021
+            <span class="company_name"> Zeus System Pvt. Ltd</span>
+            <span>All rights resorved.</span>
+          </p>
+        </div>
+      </div>
+      <!-- footer end -->
+    </div>
+  </body>
+</html>
