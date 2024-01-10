@@ -1,0 +1,370 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Quicksand-Medium;
+  src: url("../Quicksand-Medium.ttf");
+}
+
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url("../Quicksand-Bold.ttf");
+}
+
+// importing from separate footer file
+@import "./footer";
+@import "./variables";
+
+@mixin Dflex($direction, $justifyContent, $alignItems) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  // background-color: aqua;
+}
+
+/* akha page par */
+.dashboard_page {
+  //   display: flex;
+  //   flex-direction: column;
+  @include Dflex(column, none, none);
+  background: $lightGreyBackground;
+  box-sizing: border-box;
+  min-height: 100vh;
+  /* min-width: 100vw; */
+}
+
+/* header section */
+.header {
+  //   display: flex;
+  /* logo and li srkhi space lese */
+  //   justify-content: space-between;
+
+  @include Dflex(row, space-between, none);
+
+  background-image: url("../header\ pattern\ image.png");
+  /* opacity: 80%; */
+  /* blend-mode: overlay; */
+  background-color: darkblue;
+  height: 56px;
+
+  > img {
+    margin: 0 24px;
+  }
+  ul {
+    margin: 0 24px;
+    // display: flex;
+    // align-items: center;
+    @include Dflex(row, none, center);
+    /* remove bullets */
+    list-style: none;
+    /* justify-content: space-around; */
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin: 0 32px 0 0;
+
+      a {
+        font: normal normal 16px/18px "Quicksand-Medium";
+        color: $parrotGreen;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/* hide small screen */
+.header_small_screen {
+  /* visibility: hidden; */
+  display: none;
+}
+
+/* main body of dashboard */
+.courses {
+  /* grid-area: "b"; */
+  /* width: 100vw; */
+
+  .green_header {
+    //   display: flex;
+    //   justify-content: space-between;
+
+    @include Dflex(row, space-between, none);
+    margin: 24px;
+    background: $pistaGreen;
+
+    height: 64px;
+    /* width: 976px; */
+
+    border-radius: 2px;
+
+    .box {
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      @include Dflex(row, center, center);
+      width: 488px;
+
+      font: normal normal 16px/20px "Quicksand-Medium";
+
+      span {
+        margin-right: 8px;
+        margin-left: 8px;
+        font: normal normal 16px/20px "Quicksand-Bold";
+      }
+    }
+  }
+}
+
+/* filter */
+.filter_line {
+  // display: flex;
+  /* justify-content: space-between; */
+  // align-items: center;
+  @include Dflex(row, none, center);
+
+  margin: 0 24px 16px 24px;
+  height: 28px;
+
+  .label {
+    font: normal normal 12px/15px "Quicksand-Medium";
+    color: $lightLabel;
+
+    /* so that single line ma text rey */
+    white-space: nowrap;
+  }
+
+  .filter {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+
+    @include Dflex(row, center, center);
+
+    margin-left: auto;
+
+    img {
+      height: 24px;
+      margin-left: 24px;
+    }
+
+    select {
+      /* display: flex; */
+      font: normal normal 16px/20px "Quicksand-Medium";
+      border: none;
+      outline: none;
+      width: 100%;
+      background: $lightGreyBackground;
+      -webkit-appearance: none;
+      background-image: url("../icons/arrow-down.svg");
+      background-repeat: no-repeat;
+      background-position: right;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+      /* opacity: 0.12; */
+    }
+  }
+}
+
+// for width of dropdown
+#CN {
+  width: 156px;
+  margin: 0 12px;
+}
+
+/* line  */
+.line {
+  border-bottom: 2px solid $black;
+  opacity: 0.12;
+  margin: 0 24px;
+  margin-bottom: 16px;
+}
+
+/* card mate badhu */
+.card_container {
+  margin: 0 24px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  /* background-color: rebeccapurple; */
+  height: 246px;
+  width: 476px;
+  box-sizing: border-box;
+  margin: 0px 12px 25px 12px;
+  background-color: $whiteBackground;
+  opacity: 1;
+  border-radius: 2px;
+  padding: 24px 24px;
+
+  .card_upper_body {
+    display: flex;
+    padding-bottom: 16px;
+
+    > img {
+      width: 132px;
+      height: 157px;
+    }
+
+    .card_content {
+      // display: flex;
+      // flex-direction: column;
+      @include Dflex(column, none, none);
+      margin-left: 16px;
+      width: 100%;
+
+      .first_Line {
+        //   display: flex;
+        //   align-items: center;
+        //   justify-content: space-between;
+        @include Dflex(row, space-between, center);
+        font: normal normal 16px/20px "Quicksand-Bold";
+        margin-bottom: 7px;
+
+        img {
+          width: 24px;
+          border-radius: 2px;
+        }
+      }
+
+      .second_line {
+        font: normal normal 12px/16px "Quicksand-Medium";
+        color: $labelColor;
+        margin-bottom: 7px;
+
+        .separator {
+          border-right: 1px solid $black;
+        }
+      }
+
+      .third_line {
+        font: normal normal 12px/16px "Quicksand-Medium";
+        margin-bottom: 18px;
+        color: $labelColor;
+        span {
+          margin-left: 6px;
+        }
+
+          p {
+            // from were does this extra 12 margin come? ---------------------------------------------------------
+            margin: 0;
+            span{
+
+                &:first-child {
+                  margin-left: 0px;
+                }
+            }
+
+            .bold {
+              font: normal normal 12px/16px "Quicksand-Medium";
+              margin-bottom: 18px;
+              color: #222222;
+            }
+          
+          }
+      }
+
+      .fourth_line select {
+        width: 264px;
+        font: normal normal 16px/20px "Quicksand-Medium";
+        border: none;
+        outline: none;
+        width: 90%;
+        background: transparent;
+        -webkit-appearance: none;
+        background-image: url("icons/arrow-down.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+      }
+
+      .fifth_line {
+        font: normal normal 12px/15px "Quicksand-Medium";
+        color: $labelColor;
+        
+        // from were does this margin came in light? ---------------------------------------------------------
+        p{
+            margin: 0;
+        }
+
+        .separator {
+          margin: 0 8px;
+          height: 15px;
+          width: 1px;
+          border-right: 1px solid $black;
+          background-color: $black;
+        }
+      }
+    }
+  }
+
+  .card_lower_body {
+    // display: flex;
+    // justify-content: space-evenly;
+    @include Dflex(row, space-evenly, none);
+  }
+}
+
+/* ------------------------------- for small width content ---------------------------------------------- */
+
+@media (max-width: 768px) {
+  .card_container {
+    margin: 0 24px;
+    display: grid;
+    grid-template-columns: auto;
+    /* grid-template-rows: 1fr 1fr; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* hide when small screen hits */
+  .header {
+    /* visibility: hidden; */
+    display: none;
+  }
+  .header_small_screen {
+    /* logo and li srkhi space lese */
+    //   justify-content: space-between;
+    //   display: flex;
+
+    @include Dflex(row, space-between, none);
+
+    visibility: visible;
+    background-image: url("../header\ pattern\ image.png");
+    /* opacity: 80%; */
+    /* blend-mode: overlay; */
+    background-color: darkblue;
+    height: 56px;
+
+    > img {
+      margin: 0 24px;
+    }
+
+    ul {
+      //   display: flex;
+      //   align-items: center;
+      @include Dflex(row, none, center);
+      /* remove bullets */
+      list-style: none;
+
+      padding: 0;
+      margin: 0;
+      margin-right: 24px;
+
+      li {
+        padding: 12px;
+
+        a {
+          font: normal normal 16px/18px "Quicksand-Medium";
+          color: $parrotGreen;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
