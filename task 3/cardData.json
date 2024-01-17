@@ -1,0 +1,59 @@
+ [
+  {
+    "course_image": "images/imageMask.png",
+    "course_title": "Acceleration",
+    "course_subject": "Physics",
+    "course_grade": "Grade 7",
+    "course_grade_addition": "+2",
+    "course_units": "4",
+    "course_lesson": "18",
+    "course_topic": "24",
+    "course_faculty": "Mr. Frank's Class B",
+    "no_of_students": "50 Students",
+    "date": "21-Jan-2020 - 21-Aug-2020"
+  },
+  {
+    "course_image": "images/imageMask-1.png",
+    "course_title": "Displacement, Velocity and Speed",
+    "course_subject": "Physics 2",
+    "course_grade": "Grade 6",
+    "course_grade_addition": "+3",
+    "course_units": "2",
+    "course_lesson": "15",
+    "course_topic": "20",
+    "course_faculty": "No Classes",
+    "no_of_students": "50 Students",
+    "date": ""
+  },
+  {
+    "course_image": "images/imageMask-3.png",
+    "course_title":"Introduction to Biologu:Micro organism and how they affec...",
+    "course_subject": "Biology",
+    "course_grade": "Grade 4",
+    "course_grade_addition": "+1",
+    "course_units": "5",
+    "course_lesson": "16",
+    "course_topic": "22",
+    "course_faculty": "All Classes",
+    "no_of_students": "300 Students",
+    "date": ""
+  },
+  {
+    "course_image": "images/imageMask-2.png",
+    "course_title": "Introduction to High School Mathematics",
+    "course_subject": "Mathematics",
+    "course_grade": "Grade 8",
+    "course_grade_addition": "+3",
+    "course_units": "4",
+    "course_lesson": "18",
+    "course_topic": "24",
+    "course_faculty": "Mr. Frank's Class A",
+    "no_of_students": "44 Students",
+    "date": "14-Oct-2019 - 20-Oct-2020"
+  }
+]
+
+
+
+
+

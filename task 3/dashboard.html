@@ -6,6 +6,7 @@
     <title>Document</title>
     <!-- <link rel="stylesheet" href="dashboard.css" /> -->
     <link rel="stylesheet" href="../task 3/sassStyles/dashboardPage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
   <body>
     <!-- main div to provide layout -->
@@ -19,13 +20,15 @@
           <li><a href="#">USERS</a></li>
           <li><a href="#">REPORTS</a></li>
           <li><a href="#">ADMIN</a></li>
-          <li>
+          <li onclick="notificationShow">
             <a href="#"><img src="icons/alerts.svg" alt="notification" /></a>
+            <div class="hbadge">2</div>
           </li>
-          <li>
+          <li onclick="announcementShow">
             <a href="#"
               ><img src="icons/announcements.svg" alt="announcement"
             /></a>
+            <div class="hbadge">1</div>
           </li>
           <li>
             <a href="#"><img src="icons/account_circle.svg" alt="" /></a>
@@ -39,20 +42,74 @@
         <img src="icons/logo used in header.svg" alt="logo at header" />
         <ul>
           
-          <li>
+          <li onclick="notificationShow()">
             <a href="#"><img src="icons/alerts.svg" alt="notification" /></a>
+            <div class="hbadge">2</div>
           </li>
-          <li>
+          <li onclick="announcementShow()">
             <a href="#"
               ><img src="icons/announcements.svg" alt="announcement"
             /></a>
+            <div class="hbadge">1</div>
           </li>
           <li>
             <a href="#"><img src="icons/account_circle.svg" alt="" /></a>
           </li>
-          <li><img src="icons/hamburger-menu.svg" alt="hamburger menu"></li>
+          <li><img class="triggeringButton " onclick="toggle()" src="icons/hamburger-menu.svg" alt="hamburger menu"></li>
         </ul>
+
       </div>
+      <!-- dialogbox dropdown -->
+      <div class="menuBox " style="display: none;"  >
+      <ul>
+        <li>
+          Dashboard
+          <span><i class="fa-solid fa-chevron-down"></i></span>
+        </li>
+        <li onclick="dropdown('contentchange')">
+          content
+          <span><i class="fa-solid fa-chevron-down"></i></span>
+        </li>
+        <li class="contentchange">
+          course catalogue
+          <!-- <span><i class="fa-solid fa-chevron-down"></i></span> -->
+        </li>
+        <li>
+          users
+          <span><i class="fa-solid fa-chevron-down"></i></span>
+        </li>
+        <li>
+          reports
+          <span><i class="fa-solid fa-chevron-down"></i></span>
+        </li>
+        <li>
+          admin
+          <span><i class="fa-solid fa-chevron-down"></i></span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- announcement popup -->
+    <script src="../task 3/notification.js"></script>
+    <div class="announcement" style="display:none">
+      <div class="announcement_content"></div>
+      
+      <div class="btns">
+        <p class="show">SHOW ALL</p>
+        <p class="create">CREATE NEW</p>
+      </div>
+    </div>
+    
+    <!-- notification popup -->
+    <div class="notifications" style="display: none">
+          <div class="notification_content"></div>
+
+          <div class="btns">
+            <p class="show">Show All</p>
+          </div>
+    </div>
+      
+      
       <!-- header end for big screen-->
 
       <!-- main content of courses -->
@@ -83,12 +140,12 @@
           </div>
         </div>
         <div class="line"></div>
-
+        
         <div class="card_container">
             <!-- first card -->
-          <div class="card">
+          <!-- <div class="card">
             <div class="card_upper_body">
-              <img src="images/imageMask.png" alt="" />
+              <img src="images/imageMask.png" alt="course landing photo" />
               <div class="card_content">
                 <div class="first_Line">
                   <span class="important">Acceleration</span>
@@ -130,7 +187,7 @@
             </div>
           </div>
 
-          <!-- second card -->
+          second card
           <div class="card">
             <div class="card_upper_body">
               <img src="images/imageMask-1.png" alt="" />
@@ -175,7 +232,7 @@
             </div>
           </div>
 
-          <!-- third card -->
+          third card
           <div class="card">
             <div class="card_upper_body">
               <img src="images/imageMask-3.png" alt="" />
@@ -220,7 +277,7 @@
             </div>
           </div>
 
-          <!-- fourth card -->
+          fourth card
           <div class="card">
             <div class="card_upper_body">
               <img src="images/imageMask-2.png" alt="" />
@@ -263,7 +320,7 @@
                 <img src="icons/grade submissions.svg" alt="">
                 <img src="icons/reports.svg" alt="">
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- main content of courses end -->
@@ -283,10 +340,52 @@
             copyright &copy; 2020-2021
             <span class="company_name"> Zeus System Pvt. Ltd</span>
             <span>All rights resorved.</span>
+
           </p>
         </div>
       </div>
       <!-- footer end -->
     </div>
+
+
+
+    <script src="card.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script >
+      
+      const letsFuck = () =>{
+        alert('im fucking this');
+
+        let card_container = document.querySelector('.card_container')
+
+        const pd = document.createElement('div');
+        const pp = document.createElement('p');
+        pp.innerHTML = "chehcking working or not??";
+        pd.appendChild(pp);
+
+        card_container.append(pd)
+        //document.body.appendChild(pd);
+      }
+      
+      const fuck = document.querySelector('#fuck');
+      fuck.addEventListener('click',()=>{
+        letsFuck();
+      })
+    </script> -->

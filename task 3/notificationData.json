@@ -1,0 +1,174 @@
+{
+  "announcement": [
+    {
+      "sender": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "attachment": "2 files are attached",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFFF",
+      "iconpath": "./icons/correct.png"
+    },
+    {
+      "sender": "PA: Samson White",
+      "title": "Guest lecture on Geometry on 20th September",
+      "attachment": "2 files are attached",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFEE",
+      "iconpath": "./icons/dnd.png"
+    },
+    {
+      "sender": "PA: Wilson Kumar",
+      "title": "Additional course materials available on request",
+      "attachment": "Course: Mathematics 101",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFFF",
+      "iconpath": "./icons/correct.png"
+    },
+    {
+      "sender": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "attachment": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFEE",
+      "iconpath": "./icons/dnd.png"
+    },
+    {
+      "sender": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "attachment": "2 files are attached",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFEE",
+      "iconpath": "./icons/dnd.png"
+    },
+    {
+      "sender": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "attachment": "2 files are attached",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFFF",
+      "iconpath": "./icons/correct.png"
+    },
+    {
+      "sender": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "attachment": "2 files are attached",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFEE",
+      "iconpath": "./icons/dnd.png"
+    },
+    {
+      "sender": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "attachment": "2 files are attached",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFFF",
+      "iconpath": "./icons/correct.png"
+    },
+    {
+      "sender": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "attachment": "2 files are attached",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFEE",
+      "iconpath": "./icons/dnd.png"
+    },
+    {
+      "sender": "PA: Wilson Kumar",
+      "title": "No classes will be held on 21st Nov",
+      "attachment": "2 files are attached",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "bg": "#FFFFFF",
+      "iconpath": "./icons/correct.png"
+    }
+  ],
+  "notification": [
+    {
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./icons/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "Lesson 3 Practice Worksheet overdue for Amy Santiago",
+      "class": "",
+      "course": "Advanced Mathematics",
+      "date": "15-Sep-2018 at 05:21 pm",
+      "iconpath": "./icons/correct.png",
+      "bg": "#FFFFFF"
+    },
+    {
+      "title": "23 new students created",
+      "class": "",
+      "course": "",
+      "date": "14-Sep-2018 at 01:21 pm",
+      "iconpath": "./icons/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "15 submissions ready for evaluation",
+      "class": "Basics of Algebra",
+      "course": "",
+      "date": "13-Sep-2018 at 01:15 pm",
+      "iconpath": "./icons/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "License for Basic Concepts in Geometry has been assigned to your... school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./icons/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "Lesson 3 Practice Worksheet overdue for Sam Diego",
+      "class": "",
+      "course": "Advanced Mathematics",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./icons/correct.png",
+      "bg": "#FFFFFF"
+    },
+    {
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./icons/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./icons/dnd.png",
+      "bg": "#FFFFFF"
+    },
+    {
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./icons/dnd.png",
+      "bg": "#FFFFEE"
+    },
+    {
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./icons/dnd.png",
+      "bg": "#FFFFFF"
+    },
+    {
+      "title": "License for Introduction to Algebra has been assigned to your school",
+      "class": "",
+      "course": "",
+      "date": "15-Sep-2018 at 07:21 pm",
+      "iconpath": "./icons/dnd.png",
+      "bg": "#FFFFFF"
+    }
+  ]
+}
