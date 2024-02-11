@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../../assets/Quicksand-Medium.ttf');
+}
+
+
+.card_body{
+
+    margin: 24px;
+
+    padding: 16px;
+
+    /* height: 244px; */
+    max-height: 278px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 6px #0000003D;
+    opacity: 1;
+
+    box-sizing: border-box;
+}
+
+/* .card_content{
+    min-height: 244px;
+} */
+
+/* to remove unwanted margin from all p tags */
+.card_body p {
+    margin: 0;
+}
+
+.card_body > .card_content > .upper_body > p:first-child{
+    margin: 0px 0px 16px 0px;
+
+    /* font: normal normal medium 18px/20px 'Quicksand'; */
+    font-family: 'Quicksand';
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #1F7A54;
+}
+
+.card_body > .card_content>.upper_body > p:nth-child(2){
+    color: #666666;
+    /* font: normal normal medium 12px/16px 'Quicksand'; */
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Quicksand';
+    /* background-color: red; */
+
+    margin-bottom:8px ;
+}
+
+.card_body .card_content .upper_body .third_line{
+    display: flex;
+
+    font-family: 'Quicksand';
+    font-size: 14px;
+    line-height: 16px;
+    color: #222222;
+
+    align-items: center;
+
+    
+}
+
+.card_body .card_content .upper_body .third_line > span{
+    background-color: #000000;
+    height: 12px;
+    width: 1px;
+    opacity: 0.12;
+    margin-left: 16px;
+    margin-right: 20px;
+}
+
+.card_body .card_content .upper_body .third_line .location{
+    display: flex;
+    align-items: center;
+
+}
+
+.card_body .card_content .upper_body .third_line .location span{
+    background-image: url('../../assets/location_on_black_24dp.svg');
+    width: 9px;
+    height: 13px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #666666;
+    filter: invert(50%);
+}
+
+.card_body .card_content .upper_body .third_line .location p {
+    color: #666666;
+    /* background-color: red; */
+    font-family: 'Quicksand';
+    font-size: 12px;
+    line-height: 16px;
+    margin-left:7px ;
+}
+
+.card_body .card_content .line{
+    background-color: #000000;
+    height: 1px;
+    opacity: 0.12;
+
+    margin: 16px 0px;
+}
+
+.card_body .card_content .lower_body >p{
+    /* background-color: red; */
+    color: #666666;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Quicksand';
+
+    margin-bottom: 8px;
+}
+
+.card_body .card_content .lower_body .job_roles{
+    display: flex;
+    gap: 17px;
+}
+
+
+.card_body .card_content .lower_body .job_roles .job_role{
+    display: flex;
+
+    margin-bottom: 8px;
+}
+.card_body .card_content .lower_body .job_roles .job_role > p{
+    /* display: flex; */
+    color: #222222;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    margin-left:12px ;
+}
+.card_body .card_content .lower_body .job_roles .job_role .job_role_logo{
+    /* display: flex; */
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_body .card_content .lower_body  .internship{
+    /* background-color: #EEDD6B; */
+    margin-bottom: 0;
+    /* border-radius: 50%; */
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+.card_body .card_content .lower_body  .internship p{
+    background-color: #EEDD6B;
+    margin-bottom: 0;
+    border-radius: 9px;
+    font-family: 'Quicksand';
+    font-size: 10px;
+    line-height: 18px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+
+.card_body .card_content .btn{
+    display: flex;
+}
+.card_body .card_content .btn button{
+    height: 28px;
+    width: 168px;
+    background-color: #3FD28B;
+
+    margin-top: 27px;
+    /* margin-bottom: 16px; */
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 2px;
+    border: none;
+
+    box-shadow: 0px 3px 5px #0000003D;
+
+    color: #25313F;
+
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Quicksand';
+}
+
+
+/* making card - drive listing page responsive */
+@media (max-width: 376px)
+{
+    .card_body{
+        max-height: 342px;
+    }
+
+    .card_body .card_content .lower_body .job_roles{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    }
+
+    .card_body .card_content .lower_body .job_roles .job_role{
+        margin-bottom: 0;
+    }
+
+    .card_body .card_content .lower_body .internship{
+        margin-top: 16px;
+    }
+
+}

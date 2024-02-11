@@ -1,0 +1,267 @@
+.login_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+
+.login_area .login_card{
+    height: 419px;
+    width: 488px;
+
+    top: 201px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+
+
+    /* ana thi footer 2 niche chipke chhe */
+    margin: auto;
+
+    display: flex;
+    /* align-self: center; */
+    /* justify-self: center; */
+
+    border-top: 4px solid #3AC7EC;
+    border-radius: 2px 2px 0px 0px;
+    opacity: 1;
+
+    box-sizing: border-box;
+}
+
+.login_area .login_card p{
+    margin: 0;
+}
+
+
+.login_area .login_card .login_card_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    padding: 0 32px;
+
+    box-sizing: border-box;
+}
+
+.login_area .login_card .login_card_content > p:first-child {
+    /* background-color: #3AC7EC; */
+
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Quicksand';
+
+    margin-top: 20px;
+    margin-bottom: 32px;
+
+    /* horizontally center */
+    align-self: center;
+}
+
+
+.login_area .login_card .login_card_content .line{
+    height: 1px;
+    background-color: #000000;
+    opacity: 0.12;
+
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+.login_area .login_card .login_card_content .first_line{
+    margin-bottom: 32px;
+}
+
+.login_area .login_card .login_card_content .first_line input{
+    /* background-color: rebeccapurple; */
+    color: #666666;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    
+    width: 100%;
+    
+    border: none;
+    
+    
+}
+.login_area .login_card .login_card_content .first_line > p{
+    /* background-color: rebeccapurple; */
+    color: #1F7A54;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Quicksand';
+
+    
+    /* right side forgot id */
+    text-align: right;
+ 
+}
+.login_area .login_card .login_card_content .first_line > p:hover{
+    cursor: pointer;
+}
+
+/* input mate */
+input:focus{
+    outline: none;
+}
+.login_area .login_card .login_card_content .second_line .same_line input{
+    /* background-color: rebeccapurple; */
+    color: #666666;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    
+    width: 100%;
+    
+    border: none;
+    
+    
+}
+.login_area .login_card .login_card_content .second_line .same_line {
+    
+    display: flex;
+   
+}
+.login_area .login_card .login_card_content .second_line .same_line img:hover{
+    cursor: pointer;
+}
+
+.login_area .login_card .login_card_content .second_line > p{
+    /* background-color: rebeccapurple; */
+    color: #1F7A54;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Quicksand';
+    
+    
+    /* right side forgot id */
+    text-align: right;
+ 
+}
+.login_area .login_card .login_card_content .second_line > p:hover{
+    /* background-color: rebeccapurple; */
+    cursor: pointer;
+ 
+}
+
+/* input mate */
+input:focus{
+    outline: none;
+}
+
+.login_area .login_card .login_card_content .second_line{
+    margin-bottom: 26px;
+}
+
+.login_area .login_card .login_card_content .third_line{
+    display: flex;
+    gap: 5px;
+
+    align-items: center;
+
+    margin-bottom: 32px;
+    
+}
+.login_area .login_card .login_card_content .third_line > p{
+    font-family: 'Quicksand';
+    line-height: 20px;
+    font-style: 16px;
+
+}
+
+.login_area .login_card .login_card_content .btn {
+    /* display: flex; */
+    margin: 0 auto;
+    margin-bottom: 24px;
+
+}
+.login_area .login_card .login_card_content .btn button{
+    font-family: 'Quicksand';
+    font-style: 14px;
+    line-height: 18px;
+    color: #1F2834;
+    background-color: #3FD28B;
+    height: 40px;
+    width: 218px;
+
+    border: none;
+
+    box-shadow: 0px 3px 5px #0000003D;
+    opacity: 1;
+
+    border-radius: 4px;
+
+}
+
+.login_area .login_card .login_card_content .btn button:hover{
+    cursor: pointer;
+}
+
+.login_area .login_card .login_card_content .last_line{
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_area .login_card .login_card_content .last_line p{
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Quicksand';
+
+    margin-bottom: 4px;
+    
+}
+.login_area .login_card .login_card_content .last_line a{
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Quicksand';
+    color: #1F7A54;
+    
+    /* outline: none; */
+    text-decoration: none;
+    
+}
+
+.login_area .footer .footer_one{
+    margin-bottom: 40px;
+}
+.login_area .footer .footer_one a{
+    /* background-color: #3AC7EC; */
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Quicksand';
+    color: #1F7A54;
+    text-decoration: none;
+    /* gap: 20px; */
+    
+    
+}
+.login_area .footer .footer_one a:first-child{
+   border-right: 1px solid #000000;
+   /* opacity: 0.12; */
+   padding-right: 10px;
+    
+    
+}
+.login_area .footer .footer_one a:last-child{
+   /* border-right: 1px solid #000000; */
+   /* opacity: 0.12; */
+   padding-left: 10px;
+    
+    
+}
+
+
+/* responsive login */
+@media (max-width: 376px)
+{
+    .login_area .login_card{
+        width: 343px;
+        height: 419px;
+    }
+}

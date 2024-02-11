@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card_body" *ngFor="let drive of drives">
+      <div class="card_content">
+        <div class="upper_body">
+          <p>{{ drive.title }}</p>
+          <p>Date & Time:</p>
+          <div class="third_line">
+            <p>{{ drive.date_time }}</p>
+            <span></span>
+            <div class="location">
+              <span></span>
+              <p>{{ drive.location }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="lower_body">
+          <p>Job Roles:</p>
+          <div class="job_roles">
+            <div class="job_role" *ngFor="let job_role of drive.job_roles">
+              <div class="job_role_logo" >
+                <img
+                  [src]="job_role.url"
+                  alt="instructional designer logo"
+                />
+              </div>
+              <p>{{ job_role.role }}</p>
+            </div>
+          </div>
+          <div class="internship" *ngIf="drive.internship">
+            <p>{{ drive.internship }}</p>
+          </div>
+        </div>
+        <div class="btn">
+          <button>VIEW MORE DETAILS</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

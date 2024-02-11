@@ -1,0 +1,543 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("../../assets/Quicksand-Medium.ttf");
+}
+
+.drive_info {
+  margin: 24px;
+  padding: 16px;
+  /* background-color: red; */
+  height: 922px;
+
+  box-shadow: 0px 4px 6px #0000003d;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+/* .drive_info .card_body{ */
+/* padding: 16px; */
+
+/* margin: 24px; */
+
+/* height: 244px; */
+/* max-height: 1004px; */
+
+/* } */
+
+/* .card_content{
+    min-height: 244px;
+} */
+
+/* to remove unwanted margin from all p tags */
+.drive_info p {
+  margin: 0;
+}
+
+.drive_info .card_body > .card_content > .upper_body > p:first-child {
+  margin: 0px 0px 16px 0px;
+
+  /* font: normal normal medium 18px/20px 'Quicksand'; */
+  font-family: "Quicksand";
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #1f7a54;
+}
+
+.drive_info .card_body > .card_content > .upper_body > p:nth-child(2) {
+  color: #666666;
+  /* font: normal normal medium 12px/16px 'Quicksand'; */
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Quicksand";
+  /* background-color: red; */
+
+  margin-bottom: 8px;
+}
+
+.drive_info .card_body .card_content .upper_body .third_line {
+  display: flex;
+
+  font-family: "Quicksand";
+  font-size: 14px;
+  line-height: 16px;
+  color: #222222;
+
+  align-items: center;
+}
+
+.drive_info .card_body .card_content .upper_body .third_line > span {
+  background-color: #000000;
+  height: 12px;
+  width: 1px;
+  opacity: 0.12;
+  margin-left: 16px;
+  margin-right: 20px;
+}
+
+.drive_info .card_body .card_content .upper_body .third_line .location {
+  display: flex;
+  align-items: center;
+}
+
+.drive_info .card_body .card_content .upper_body .third_line .location span {
+  background-image: url("../../assets/location_on_black_24dp.svg");
+  width: 9px;
+  height: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #666666;
+  filter: invert(50%);
+}
+
+.drive_info .card_body .card_content .upper_body .third_line .location p {
+  color: #666666;
+  /* background-color: red; */
+  font-family: "Quicksand";
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 7px;
+}
+
+.drive_info .card_body .card_content .line {
+  background-color: #000000;
+  height: 1px;
+  opacity: 0.12;
+
+  margin: 16px 0px;
+}
+
+.drive_info .card_body .card_content .lower_body > p {
+  /* background-color: red; */
+  color: #666666;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Quicksand";
+
+  margin-bottom: 8px;
+}
+
+.drive_info .card_body .card_content .lower_body .job_roles {
+  display: flex;
+  gap: 17px;
+}
+
+.drive_info .card_body .card_content .lower_body .job_roles .job_role {
+  display: flex;
+
+  margin-bottom: 8px;
+}
+.drive_info .card_body .card_content .lower_body .job_roles .job_role > p {
+  /* display: flex; */
+  color: #222222;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Quicksand";
+  margin-left: 12px;
+}
+.drive_info
+  .card_body
+  .card_content
+  .lower_body
+  .job_roles
+  .job_role
+  .job_role_logo {
+  /* display: flex; */
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drive_info .card_body .card_content .lower_body .internship {
+  /* background-color: #EEDD6B; */
+  margin-bottom: 0;
+  /* border-radius: 50%; */
+  height: 18px;
+  display: flex;
+  align-items: center;
+}
+.drive_info .card_body .card_content .lower_body .internship p {
+  background-color: #eedd6b;
+  margin-bottom: 0;
+  border-radius: 9px;
+  font-family: "Quicksand";
+  font-size: 10px;
+  line-height: 18px;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.drive_info .card_body .card_content .btn {
+  display: flex;
+}
+.drive_info .card_body .card_content .btn button {
+  height: 28px;
+  width: 168px;
+  background-color: #3fd28b;
+
+  margin-top: 27px;
+  /* margin-bottom: 16px; */
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 2px;
+  border: none;
+
+  box-shadow: 0px 3px 5px #0000003d;
+
+  color: #25313f;
+
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Quicksand";
+}
+
+/* pre req starting */
+.drive_info .prerequisite > .title {
+  height: 40px;
+  background-color: #dbefff;
+  color: #222222;
+
+  /* for padding related issues */
+  margin-left: -16px;
+  margin-right: -16px;
+  padding-left: 16px;
+}
+
+.drive_info .prerequisite .title {
+  display: flex;
+}
+
+.drive_info .prerequisite .title span {
+  margin-left: auto;
+
+  width: 1px;
+  height: 40px;
+  background-color: #000000;
+  opacity: 0.25;
+}
+
+.drive_info .prerequisite .title p {
+  font-family: "Quicksand";
+  font-size: 16px;
+  line-height: 19.2px;
+
+  align-self: center;
+  margin: 0;
+}
+
+.drive_info .prerequisite .title img {
+  margin: 0px 10px;
+  height: 24px;
+  width: 24px;
+  align-self: center;
+}
+
+.drive_info .prerequisite .general_instruction > p:first-child {
+  /* background-color: #1F7A54; */
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Quicksand";
+  color: #666666;
+  margin: 8px 0px;
+}
+
+.drive_info .prerequisite .general_instruction p {
+  font-family: "Quicksand";
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.drive_info .prerequisite .line {
+  background-color: #000000;
+  height: 1px;
+  opacity: 0.12;
+
+  margin: 16px 0px;
+}
+
+.drive_info .prerequisite .instructions > p:first-child {
+  /* background-color: #1F7A54; */
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Quicksand";
+  color: #666666;
+  margin: 8px 0px;
+}
+
+.drive_info .prerequisite .instructions p {
+  font-family: "Quicksand";
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.drive_info .prerequisite .sys_requirement > p:first-child {
+  /* background-color: #1F7A54; */
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Quicksand";
+  color: #666666;
+  margin: 8px 0px;
+}
+
+.drive_info .prerequisite .sys_requirement p {
+  font-family: "Quicksand";
+  font-size: 14px;
+  line-height: 24px;
+}
+.drive_info .prerequisite .process > p:first-child {
+  /* background-color: #1F7A54; */
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Quicksand";
+  color: #666666;
+  margin: 8px 0px;
+}
+
+.drive_info .prerequisite .process .rounds {
+  margin-top: 30px;
+}
+
+.drive_info .prerequisite .process .rounds p {
+  font-family: "Quicksand";
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* second part from preferences */
+.preferences {
+  /* height: 396px; */
+  height: 388px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 6px #0000003d;
+  opacity: 1;
+  /* background-color: red; */
+
+  margin: 24px;
+  padding: 16px;
+
+  box-sizing: border-box;
+}
+
+.preferences p {
+  margin: 0;
+}
+
+.preferences p:first-child {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Quicksand";
+  margin-bottom: 24px;
+}
+
+.preferences P:nth-child(2) {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Quicksand";
+  margin-bottom: 16px;
+  color: #666666;
+}
+
+.preferences .time_slots .same_line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.preferences .time_slots .same_line > p {
+  margin: 0;
+}
+
+.preferences .line {
+  background-color: #000000;
+  height: 1px;
+  opacity: 0.12;
+
+  margin: 16px 0px;
+}
+
+.preferences .prefer_job_role .same_line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.preferences .prefer_job_role .same_line > p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.preferences .upload {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.preferences .upload > p {
+  margin: 0;
+
+  font-size: 14px;
+  font-family: "Quicksand";
+  line-height: 20px;
+}
+
+/* for job roles */
+.job_description {
+  height: 644px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 6px #0000003d;
+  opacity: 1;
+
+  margin: 24px;
+  padding: 16px;
+  padding-top: 0;
+
+  box-sizing: border-box;
+}
+
+.job_description p{
+    margin: 0;
+}
+
+ .job_description > .title {
+  height: 40px;
+  background-color: #dbefff;
+  color: #222222;
+
+  /* for padding related issues */
+  margin-left: -16px;
+  margin-right: -16px;
+  padding-left: 16px;
+}
+
+ .job_description .title {
+  display: flex;
+}
+
+ .job_description .title span {
+  margin-left: auto;
+
+  width: 1px;
+  height: 40px;
+  background-color: #000000;
+  opacity: 0.25;
+}
+
+ .job_description .title p {
+  font-family: "Quicksand";
+  font-size: 16px;
+  line-height: 19.2px;
+
+  align-self: center;
+  margin: 0;
+}
+
+ .job_description .title img {
+  margin: 0px 10px;
+  height: 24px;
+  width: 24px;
+  align-self: center;
+}
+
+.job_description .ctc p:first-child{
+    color: #666666;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Quicksand';
+    margin: 16px 0px;
+}
+
+.job_description .ctc p{
+    color: #222222;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Quicksand';
+}
+
+.job_description .line{
+    background-color: #000000;
+    height: 1px;
+    opacity: 0.12;
+    
+    margin: 16px 0px;
+}
+
+.job_description .description p:first-child{
+    color: #666666;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Quicksand';
+    margin: 16px 0px;
+}
+
+.job_description .description p{
+    color: #222222;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Quicksand';
+}
+.job_description .requirements p:first-child{
+    color: #666666;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Quicksand';
+    margin: 16px 0px;
+}
+
+.job_description .requirements p{
+    color: #222222;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Quicksand';
+}
+
+
+/* responsive */
+
+@media (max-width:376px)
+{
+  .drive_info{
+    width: 343px;
+    height: 1562px;
+    margin: 16px;
+  }
+
+  .card_body .card_content .lower_body .job_roles{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .card_body .card_content .lower_body .job_roles .job_role{
+      margin-bottom: 0;
+  }
+
+  .card_body .card_content .lower_body .internship{
+      margin-top: 16px;
+  }
+
+  .preferences{
+    width: 343px;
+    margin: 16px;
+  }
+
+  .job_description{
+    /* background-color: palegoldenrod; */
+    width: 343px;
+    height: 1087px;
+    margin: 16px;
+  }
+}

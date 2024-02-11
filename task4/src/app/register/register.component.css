@@ -1,0 +1,280 @@
+.heading{
+    background-color: #3C4E62;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 24px;
+}
+
+.heading img{
+    margin-left: 28px;
+    /* opacity: 1;
+    z-index: 1; */
+}
+
+.heading p{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: 'Quicksand';
+    margin-left: 150px;
+}
+
+.heading .btn{
+    display: flex;
+    gap: 16px;
+    margin-right: 24px;
+}
+
+.heading .btn button{
+    background: #3FD28B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px #0000003D;
+    border-radius: 2px;
+    opacity: 1;
+
+    border: none;
+    height: 28px;
+    width: 90px;
+}
+
+/* steps vali line */
+.steps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 56px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+
+    margin: 24px;
+
+    padding: 0 16px;
+}
+
+.steps p{
+    font-family: 'Quicksand';
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.steps .circle{
+    display: flex;
+    height: 32px;
+    width: 32px;
+    background-color: #757575;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+    color: #FFFFFF;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.steps .circle span{
+    font-family: 'Quicksand';
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.steps .line{
+    background-color: #000000;
+    opacity: 0.12;
+    height: 1px;
+    width: 292px;
+}
+
+/* personal info fillup form */
+.personal_info{
+
+    /* overflow thai jai che ya to height vadhar ya hatai de */
+    /* height: 873px; */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+
+    margin: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+
+
+    display: flex;
+}
+
+.personal_info p{
+    margin: 0;
+}
+
+.personal_info .first_part{
+    width: 50%;
+    box-sizing: border-box;
+}
+.personal_info .second_part{
+    width: 50%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.personal_info .first_part .input_line{
+    margin-bottom: 40px;
+}
+
+.personal_info .first_part .input_line > p{
+    font-family: 'Quicksand';
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+
+    margin-bottom: 12px;
+}
+.personal_info .first_part .input_line input{
+    font-family: 'Quicksand';
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+
+    margin-bottom: 4px;
+    width: 100%;
+    border: none;
+}
+
+.personal_info .first_part .input_line .line{
+    height: 1px;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.25;
+}
+
+.phn{
+    display: flex;
+    gap: 5px;
+}
+
+.personal_info .first_part .input_line .phn .country_code{
+    width: 5%;
+}
+.personal_info .first_part .input_line .phn .number{
+    width: 17%;
+}
+
+.personal_info .first_part .upload{
+    /* background-color: #3C4E62; */
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.personal_info .first_part .upload p{
+    font-family: 'Quicksand';
+    font-size: 14px;
+    line-height: 18px;
+    color: #1F7A54;
+
+}
+
+.personal_info .first_part .checkbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.personal_info .first_part .checkbox > p{
+    color: #666666;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Quicksand';
+    margin-bottom: 16px;
+}
+.personal_info .first_part .checkbox .same_line{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    /* margin-top: 16px ; */
+    margin-bottom: 20px;
+}
+.personal_info .first_part .checkbox .same_line > p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+}
+.personal_info .first_part  .send_updates{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    /* margin-top: 16px ; */
+    /* margin-bottom: 20px; */
+}
+.personal_info .first_part  .send_updates > p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+}
+
+/* targetting second part */
+.personal_info .second_part{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.personal_info .second_part img{
+    height: 134px;
+    width: 112px;
+}
+
+.personal_info .second_part .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal_info .second_part .text p:first-child{
+    /* background-color: rebeccapurple; */
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Quicksand';
+    color: #1F7A54;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.personal_info .second_part .text p:last-child{
+    /* background-color: rebeccapurple; */
+    font-size: 10px;
+    line-height: 13px;
+    font-family: 'Quicksand';
+    color: #757575;
+}
+
+.btn_end{
+    display: flex;
+    justify-content: center;
+    margin: 32px ;
+
+}
+
+.btn_end button{
+    height: 28px;
+    width: 90px;
+    
+    background: #3FD28B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px #0000003D;
+    border-radius: 2px;
+    opacity: 1;
+
+    color: #1F2834;
+    border: none;
+
+    font-family: 'Quicksand';
+    font-size: 14px;
+    line-height: 16px;
+
+}

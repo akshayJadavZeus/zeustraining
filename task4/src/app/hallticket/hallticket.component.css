@@ -1,0 +1,108 @@
+.hall_ticket_card{
+    height: 546px;
+    margin: 24px;
+    padding: 24px;
+    margin-top: 76px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 6px #0000003D;
+    opacity: 1;
+
+    box-sizing: border-box;
+}
+
+.hall_ticket_card p{
+    margin: 0;
+}
+
+.hall_ticket_card .line
+{
+    background-color: #000000;
+    opacity: 0.12;
+    height: 1px;
+
+    margin: 16px 0px;
+}
+
+.hall_ticket_card .header{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 24px;
+}
+
+.hall_ticket_card .header img{
+   width: 100px;
+   height: 100px;
+   /* margin-bottom: 24px; */
+   position: absolute;
+   top: 83px;
+}
+
+.hall_ticket_card .header > p{
+    line-height: 23px;
+    font-size: 18px;
+    color: #222222;
+    font-family: 'Quicksand';
+
+    /* margin-bottom: 24px; */
+    margin-top: 42px;
+}
+
+.hall_ticket_card .details{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hall_ticket_card .details p:first-child{
+    
+    font-family: 'Quicksand';
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+}
+.hall_ticket_card .details > p{
+    
+    font-family: 'Quicksand';
+    font-size: 14px;
+    line-height: 16px;
+    color: #222222;
+}
+
+.btn{
+    /* height: 76px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.btn button{
+    background-color: #3FD28B;
+    width: 202px;
+    height: 28px;
+
+    color: #1F2834;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Quicksand';
+
+    border: none;
+    border-radius: 2px;
+
+    /* margin: 24px 0; */
+}
+
+
+
+/* making hall ticket responsive */
+
+@media  (max-width:376px){
+    .hall_ticket_card{
+        height:652px;
+        /* background-color: rebeccapurple; */
+    }
+}
+

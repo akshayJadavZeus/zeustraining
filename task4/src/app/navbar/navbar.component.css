@@ -1,0 +1,54 @@
+.navbar{
+    height: 59px;
+    background-color: #1F2834;
+    border-bottom: 4px solid #31B9E4;
+
+    display: flex;
+    justify-content: space-between;
+
+    /* we will be giving this margin of 35px to drive card page */
+    margin-bottom: 35px;
+}
+
+.navbar img{
+    width: 121px;
+    height: 36px;
+
+    margin-left: 15px;
+    margin-top: 11px;
+}
+
+.navbar .diplaypic{
+    width: 40px;
+    height: 40px;
+
+    margin-top: 9px;
+    margin-bottom: 8px;
+    margin-right: 16px;
+
+    
+    background-color: #3C4E62;
+    border-radius: 50%;
+    border: 2px solid #3FD28B;
+
+    display: flex;
+    
+}
+
+.navbar .diplaypic span{
+    width: 40px;
+    height: 40px;
+
+
+    color: white;
+    text-align: center;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Quicksand';
+    font-size: 16px;
+    line-height: 17px;
+}

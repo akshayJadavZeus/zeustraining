@@ -1,0 +1,124 @@
+.heading{
+    height: 56px;
+}
+
+.user_details .personal_info .first_part .input_line .phn .country_code p,
+.user_details .personal_info .first_part .input_line .phn .number p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    margin-bottom: 0;
+}
+
+.user_details .personal_info .first_part .input_line p:last-child{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    color: #222222;
+    margin-bottom: 0;
+    
+}
+
+.user_details .education_qualification .part_one .input_line  p:last-child{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    color: #222222;
+    margin-bottom: 0;
+
+}
+.user_details .education_qualification .part_two .input_line  p:last-child{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    color: #222222;
+    margin-bottom: 0;
+
+}
+.user_details .education_qualification .part_two .first_line .input_line  p:last-child,
+.user_details .education_qualification .part_two .second_line .input_line  p:last-child{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    color: #222222;
+    margin-bottom: 0;
+
+}
+
+.user_details .professional_qualification .radio_box .same_line p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    color: #222222;
+    margin-bottom: 0;
+}
+
+.user_details .professional_qualification .preferences{
+    height: 907px;
+}
+.user_details .professional_qualification .preferences .expertise .input_line{
+    /* height: 907px; */
+    /* display: flex;
+    flex-direction: column;
+    gap: 8px; */
+    margin-bottom: 8px;
+}
+.user_details .professional_qualification .preferences .familiar .input_line{
+    /* height: 907px; */
+    /* display: flex;
+    flex-direction: column;
+    gap: 8px; */
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+.user_details .professional_qualification .preferences .input_line p:last-child{
+    /* height: 907px; */
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    color: #222222;
+    margin-bottom: 0;
+}
+
+.user_details .professional_qualification .preferences .same_line{
+    display: flex;
+}
+
+.user_details .professional_qualification .preferences >  .input_line:nth-last-child(2){
+    /* height: 907px; */
+    /* display: flex;
+    flex-direction: column;
+    gap: 8px; */
+    margin-bottom: 8px;
+    /* margin-top: 40px; */
+    /* background-color: red; */
+}
+
+/* editable valu button */
+.user_details .editable p{
+    margin: 0;
+}
+.user_details .editable{
+    margin: 24px 24px 16px 24px;
+    display: flex;
+    align-items: center;
+}
+.user_details .editable > p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    font-family: 'Quicksand';
+}
+.user_details .editable img{
+    margin-left: auto;
+}
+.user_details .editable > p:last-child{
+    font-size: 16px;
+    line-height: 20px;
+    color: #1F7A54;
+    font-family: 'Quicksand';
+    margin-left: 9px;
+}
+
+
+/* making responsive */

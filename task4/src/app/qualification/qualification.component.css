@@ -1,0 +1,350 @@
+.education_qualification {
+  height: 519px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  margin: 24px;
+  padding: 24px;
+  box-sizing: border-box;
+  /* background-color: antiquewhite; */
+}
+
+.education_qualification p {
+  margin: 0;
+}
+
+.education_qualification .title {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  background-color: #dbefff;
+  margin: -24px -24px 0px -24px;
+}
+
+.education_qualification .title > p {
+  font-size: 16px;
+  line-height: 19.2px;
+  font-family: "Quicksand";
+  margin-left: 16px;
+}
+
+.education_qualification .title span {
+  margin-left: auto;
+  width: 1px;
+  height: 56px;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 0.25;
+}
+.education_qualification .title img {
+  margin:0px 10px;
+  
+}
+
+.education_qualification .part_one {
+    margin-top: 24px;
+}
+
+.education_qualification .part_one .input_line{
+    width: 20%;
+    margin-bottom: 40px;
+}
+
+.education_qualification .part_one .input_line > p{
+    font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+  font-family: "Quicksand";
+  margin-bottom: 12px;
+ 
+}
+
+input:focus{
+    outline: none;
+}
+
+.education_qualification .line{
+    height: 1px;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.12;
+    margin-top: 4px;
+}
+
+.education_qualification .part_one .input_line input{
+    /* text-decoration: none; */
+    border: none;
+}
+
+
+
+/* for all select components */
+/* input box */
+select{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    -webkit-appearance: none;/*default dropdown select ny dekhai*/
+    background-image: url("../../assets/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: "Quicksand";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+option{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+}
+
+/* part two 4 box 2 same line 2 up niche */
+.education_qualification .part_two{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.education_qualification .part_two .first_line,
+.education_qualification .part_two .second_line{
+    display: flex;
+    gap: 24px;
+    /* background-color: rebeccapurple; */
+    margin-bottom: 40px;
+}
+.education_qualification .part_two .first_line .input_line{
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 50%;
+}
+.education_qualification .part_two .second_line .input_line{
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 50%;
+}
+
+
+.education_qualification .part_two .first_line .input_line > p,
+.education_qualification .part_two .second_line .input_line > p{
+    font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+  font-family: "Quicksand";
+  margin-bottom: 12px;
+ 
+}
+
+.education_qualification .part_two .second_line .input_line input{
+    /* text-decoration: none; */
+    border: none;
+}
+
+.education_qualification .input_line{
+    width: 20%;
+}
+
+.education_qualification .input_line > p{
+      font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+  font-family: "Quicksand";
+  margin-bottom: 12px;
+}
+.education_qualification .input_line  input{
+    border: none;
+}
+
+/* professional qualifications starts here */
+.professional_qualification{
+    /* background-color: rebeccapurple; */
+    margin: 24px;
+    padding: 24px;
+    /* height: 489px; */
+}
+
+.professional_qualification p{
+    margin: 0;
+}
+
+.professional_qualification .title{
+  height: 56px;
+  display: flex;
+  align-items: center;
+  background-color: #dbefff;
+  margin: -24px -24px 0px -24px;
+}
+
+.professional_qualification .title > p {
+  font-size: 16px;
+  line-height: 19.2px;
+  font-family: "Quicksand";
+  margin-left: 16px;
+}
+
+.professional_qualification .title span {
+  margin-left: auto;
+  width: 1px;
+  height: 56px;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 0.25;
+}
+.professional_qualification .title img {
+  margin:0px 10px;
+  
+}
+
+.professional_qualification .radio_box{
+    height: 100px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+
+    margin: 0px -24px;
+    padding: 24px;
+
+    box-sizing: border-box;
+}
+
+.professional_qualification .radio_box > p{
+      font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+  font-family: "Quicksand";
+  margin-bottom: 13px;
+  /* margin-top: 24px; */
+}
+
+.professional_qualification .radio_box .same_line{
+    display: flex;
+    gap: 24px;
+}
+.professional_qualification .radio_box .same_line .box{
+    display: flex;
+    gap: 8px;
+}
+.professional_qualification .radio_box .same_line .box > p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    /* background-color: rebeccapurple; */
+}
+
+/* radio line pachhi nu badhu */
+.professional_qualification .preferences{
+    margin: 24px -24px 0px -24px;
+    padding: 24px ;
+    box-sizing: border-box;
+
+    /* height apeli che */
+    height: 489px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 2px;
+opacity: 1;
+}
+
+.professional_qualification .preferences .checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.professional_qualification .preferences .checkbox > p{
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    font-family: "Quicksand";
+    margin-bottom: 13px;
+}
+.professional_qualification .preferences .checkbox .same_line{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 8px;
+    align-items: center;
+}
+.professional_qualification .preferences .checkbox .same_line > p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+}
+
+.professional_qualification .preferences .input_line > p{
+      font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+  font-family: "Quicksand";
+  margin-bottom: 12px;
+}
+
+.professional_qualification .preferences .input_line{
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.professional_qualification .preferences .input_line .line{
+    height: 1px;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.12;
+    margin-top: 4px;
+}
+
+.professional_qualification .preferences .input_line input{
+    /* text-decoration: none; */
+    border: none;
+}
+
+.professional_qualification .bottom_radio_box{
+    margin-bottom: 10px;
+    /* padding: 0; */
+}
+
+.professional_qualification .bottom_radio_box > p{
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    font-family: "Quicksand";
+    margin-bottom: 13px;
+  /* margin-top: 24px; */
+}
+
+.professional_qualification .bottom_radio_box .same_line{
+    display: flex;
+    gap: 24px;
+}
+.professional_qualification .bottom_radio_box .same_line .box{
+    display: flex;
+    gap: 8px;
+}
+.professional_qualification .bottom_radio_box .same_line .box > p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Quicksand';
+    /* background-color: rebeccapurple; */
+}
+
+.btn{
+    margin-top: 32px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn button{
+   height: 28px;
+    width: 90px;
+    
+    background: #3FD28B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px #0000003D;
+    border-radius: 2px;
+    opacity: 1;
+
+    color: #1F2834;
+    border: none;
+
+    font-family: 'Quicksand';
+    font-size: 14px;
+    line-height: 16px;
+ 
+}
